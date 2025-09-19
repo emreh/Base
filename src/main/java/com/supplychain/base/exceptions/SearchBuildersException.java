@@ -1,4 +1,4 @@
-package com.supplychain.exceptions;
+package com.supplychain.base.exceptions;
 
 public class SearchBuildersException extends RuntimeException {
 

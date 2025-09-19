@@ -1,4 +1,4 @@
-package com.supplychain.model;
+package com.supplychain.base.model;
 
 import java.util.Date;
 

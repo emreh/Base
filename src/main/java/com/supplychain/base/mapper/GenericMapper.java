@@ -1,4 +1,4 @@
-package com.supplychain.mapper;
+package com.supplychain.base.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;

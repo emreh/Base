@@ -1,11 +1,11 @@
-package com.supplychain.search;
+package com.supplychain.base.search;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import com.supplychain.mapper.GenericMapper;
+import com.supplychain.base.mapper.GenericMapper;
 
 import jakarta.persistence.criteria.Predicate;
 
