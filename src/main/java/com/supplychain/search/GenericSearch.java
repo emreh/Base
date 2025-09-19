@@ -1,13 +1,13 @@
 package com.supplychain.search;
 
-import org.mapstruct.factory.Mappers;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.data.jpa.domain.Specification;
 
 import com.supplychain.mapper.GenericMapper;
 
 import jakarta.persistence.criteria.Predicate;
-import java.util.ArrayList;
-import java.util.List;
 
 public class GenericSearch<DTO, ENTITY> {
 
