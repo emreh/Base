@@ -28,12 +28,12 @@ import lombok.ToString;
 @Table(name = "Base_Entity_Model")
 @Inheritance(strategy = InheritanceType.JOINED)
 @EqualsAndHashCode(of = "id")
-public abstract class BaseEntityModel {
+public abstract class BaseEntityModel<T> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
-    private Long id;
+    private T id;
 
     @Version
     private Integer version;
