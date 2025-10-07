@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import com.supplychain.base.mapper.GenericMapper;
+import com.supplychain.base.mapping.GenericMapper;
 
 import jakarta.persistence.criteria.Predicate;
 
@@ -17,6 +17,7 @@ public class GenericSearch<DTO, ENTITY> {
 	this.mapper = mapper;
     }
 
+    @SuppressWarnings("unused")
     public Specification<ENTITY> buildSpecification(DTO dto) {
 	ENTITY entity = mapper.toEntity(dto); // MapStruct mapping
 

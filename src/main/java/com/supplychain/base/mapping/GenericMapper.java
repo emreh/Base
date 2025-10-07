@@ -1,9 +1,7 @@
-package com.supplychain.base.mapper;
+package com.supplychain.base.mapping;
 
-import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;
 
-@Mapper
 public interface GenericMapper<DTO, ENTITY> {
 
     ENTITY toEntity(DTO dto);
